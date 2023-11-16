@@ -1,3 +1,17 @@
+# **Major Notice: Repository Move**
+
+Dear SprintUI Community,
+
+We would like to inform you that the SprintUI Framework repository has been relocated to a new URL. The new repository URL is:
+
+## [https://github.com/sprintui/SprintUi-Framework](https://github.com/sprintui/SprintUi-Framework)
+
+Please make sure to update your bookmarks, references, and clone commands to reflect this new location. This move ensures a more organized and centralized development environment for the SprintUI Framework.
+
+Thank you for your understanding and continued support.
+
+Best regards,
+The SprintUI Team
 
 ![Sprint UI Logo](https://raw.githubusercontent.com/babymonie/sprintui/main/logo.png) - V1.4
 
