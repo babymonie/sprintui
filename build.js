@@ -451,14 +451,16 @@ function transpilesUIp(page, pageName) {
           }
           break;
 
-        case line.includes("return ("):
-          inSUIP = true;
+          case line.includes("<suipMarkup>"):
+            inSUIP = true;
 
-          break;
+            break;
 
-          inSUIP = false;
+          case line.includes("</suipMarkup>"):
+            inSUIP = false;
 
-          break;
+            break;
+
 
         default:
           if (inSUIP) {
