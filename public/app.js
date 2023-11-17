@@ -861,12 +861,12 @@ const app = {
             }
             break;
 
-          case line.includes("<endSUIP>"):
+          case line.includes("<suipMarkup>"):
             inSUIP = true;
 
             break;
 
-          case line.includes("</endSUIP>"):
+          case line.includes("</suipMarkup>"):
             inSUIP = false;
 
             break;
