@@ -156,7 +156,7 @@ Hooks in SprintUI can be a complex topic due to its dual nature. There are two t
 
 For instance, the first type includes functions like setTitle, which allows you to change the title of index.html. On the other hand, the second type includes functions like useQuery.
 
-It's important to note that for the second type, there are additional categories, such as imports, useQuery, and more. These elements, including imports, useQuery, and others, should be placed outside the return area and not within any styles or scripts.
+It's important to note that for the second type, there are additional categories, such as imports, useQuery, and more. These elements, including imports, useQuery, and others, should be placed outside the suipMarkup tag and not within any styles or scripts.
 
 Imports function similarly to regular imports, bringing in a set of functions. For example, when you import states, it includes four functions. Understanding and appropriately placing these hooks is crucial for effective use in SprintUI.
 
@@ -231,9 +231,9 @@ As of the current version, the available hooks along with their descriptions and
 
 </UseScript>
 
-return (
-  <!-- Your JSX here -->
-);
+<suipMarkup>
+  <!-- Your markup here -->
+</suipMarkup>
 ```
 
 Congratulations! Your SprintUI project is now ready for the world to see. Simply clone the repository, follow the steps, and showcase your creation to the world. Happy coding!
