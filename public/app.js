@@ -907,7 +907,7 @@ const app = {
 
                 html += line;
               } else {
-                console.log(line);
+                
                 html += line;
               }
             } else {
