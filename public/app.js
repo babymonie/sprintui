@@ -861,12 +861,12 @@ const app = {
             }
             break;
 
-          case line.includes("return ("):
+          case line.includes("<endSUIP>"):
             inSUIP = true;
 
             break;
 
-          case line.includes(")"):
+          case line.includes("</endSUIP>"):
             inSUIP = false;
 
             break;
@@ -907,9 +907,11 @@ const app = {
 
                 html += line;
               } else {
+                console.log(line);
                 html += line;
               }
             } else {
+             
               html += line;
             }
         }
